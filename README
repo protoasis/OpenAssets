@@ -1,0 +1,16 @@
+OpenAssets is a repository of freely available, open source assets. 
+
+These assets will be included in the base server and client, where acceptable. 
+
+OpenAssets will require the same meta-data tagging as licensed assets.
+A ProtOasis keypair should be generated, so that OpenAssets fall in line with licensing control authority system.
+(This may be in contrary to statements in the project readme - I'm a bit braindead atm, please update!)
+
+**
+More Info (for lack of better place atm):
+The Licensing Control Authority system will use a secured key-pair to determine the useage rights of assets per server.
+There will be three types of private keys:
+ProtOasis general private key, which is set by the developers. The public key will be published for all asset creators to use. 
+ProtOasis Server generic private key, set by the server operator for custom private assets.
+ProtOasis Asset private key, set by the asset creator, stored securely by Expo and loaded into Station upon purchase. Requires ProtOasis account.
+**
